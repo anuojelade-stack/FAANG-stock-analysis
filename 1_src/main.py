@@ -52,7 +52,6 @@ for ticker, df in stocks.items():
         type='line',
         style='ibd',
         ylabel='Price ($)',
-        mav=(200,300),
         savefig=str(processed_dir / f"{ticker}_chart.png")
     )
 
