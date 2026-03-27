@@ -50,7 +50,7 @@ for ticker, df in stocks.items():
     mpf.plot(
         df,   # or df for full history
         type='line',
-        style='ibd',
+        style='starsandstripes',
         ylabel='Price ($)',
         savefig=str(processed_dir / f"{ticker}_chart.png")
     )
