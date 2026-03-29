@@ -10,7 +10,7 @@ Automatically loads multiple stock CSV files, calculates daily returns, and gene
 
 - Automated CSV loading for multiple stocks
 - Daily percentage return calculations
-- Individual candlestick charts for each stock
+- Individual line charts for each stock
 - Multi-stock price comparison overlay
 - Organized output directory with saved charts
 
